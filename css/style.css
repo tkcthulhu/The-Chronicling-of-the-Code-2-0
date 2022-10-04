@@ -1,10 +1,50 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color:black;
+}
+
+.black {
+    background-color: black;
     color: white;
+}
+
+.card {
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+}
+
+#navRow {
+    text-decoration:solid;
+    font-size: large;
 }
 
 .nav-link {
     color: white;
     font-weight: lighter;
+}
+
+#mainDiv {
+    padding-top: 2.5vh;
+}
+
+#headerRow {
+    margin-top: 2vh;
+}
+
+#title {
+
+}
+
+#name {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+#logo {
+    border-radius: 50%;
+    border-style: solid;
+    border-color:white;
+    aspect-ratio: 1/1;
+    width: 12vw
 }

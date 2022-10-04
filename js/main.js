@@ -9,6 +9,7 @@ function createElement({
     text = '',
     source = '',
     link = '',
+    eStyle = '',
 }) {
     let el = document.createElement(eType);
     parent.appendChild(el);
@@ -18,5 +19,6 @@ function createElement({
     el.innerHTML = text;
     el.src = source;
     el.href = link;
+    el.style = eStyle;
     return el
 }

@@ -1,5 +1,5 @@
 const mainDiv = createElement({
-    cName: 'container-fluid',
+    cName: 'container-fluid black',
     eId: 'mainDiv',
     parent: body,
 })
@@ -15,11 +15,12 @@ const logo = createElement({
     cName: 'col-3',
     eId: 'logo',
     parent: headerRow,
-    source: '/img/Initials-1.png'
+    source: '/img/Initials-1.png',
+    eStyle: 'width: 8rem;',
 })
 
 const title = createElement({
-    cName: 'col',
+    cName: 'col text-white',
     eId: 'title',
     parent: headerRow,
     text: '<h1 id="name"><strong>Tyler Consalvi</strong></h1><br><h3>Full Stack Web Development</h3>',
