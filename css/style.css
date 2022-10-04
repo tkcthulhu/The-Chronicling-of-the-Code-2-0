@@ -1,1 +1,62 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+}
 
+.black {
+    background-color: black;
+    color: white;
+}
+
+.card {
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+}
+
+#navContainer {
+    border-bottom: 2px solid white;
+    margin-bottom: 2.5vh;
+}
+
+#navRow {
+    text-decoration:solid;
+    font-size: large;
+}
+
+#navBar {
+
+}
+
+.nav-link {
+    color: white;
+    font-weight: lighter;
+}
+
+#mainDiv {
+    padding-top: 2.5vh;
+}
+
+#headerRow {
+    margin-top: 2vh;
+    border-bottom: 2px solid white;
+    padding-bottom: 2.5vh;
+}
+
+#title {
+
+}
+
+#name {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+#logo {
+    border-radius: 50%;
+    border-style: solid;
+    border-color:white;
+    aspect-ratio: 1/1;
+    width: 12vw
+}
