@@ -83,6 +83,6 @@ const contactMe = createElement({
     eType: 'a',
     cName: 'nav-link',
     parent: contactMeLi,
-    link: null,
+    link: '/HTML/pages/contact-card.html',
     text: '//CONTACT ME'
 })
