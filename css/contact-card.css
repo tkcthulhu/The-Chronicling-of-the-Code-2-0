@@ -1,0 +1,25 @@
+#mainDiv {
+
+}
+
+#headerRow {
+    margin-top: 2vh;
+}
+
+#title {
+
+}
+
+#name {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+#logo {
+    border-radius: 50%;
+    border-style: solid;
+    border-color:white;
+    aspect-ratio: 1/1;
+    width: 12vw
+}
