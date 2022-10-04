@@ -1,7 +1,13 @@
+const navCont = createElement({
+    cName: 'container-fluid',
+    parent: body,
+    eId: 'navContainer'
+})
+
 const navRow = createElement({
     cName: 'nav',
     cName: 'navbar navbar-expand-lg justify-content-end',
-    parent: mainDiv,
+    parent: navCont,
     eId: 'navRow',
 })
 

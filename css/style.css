@@ -1,5 +1,6 @@
 body {
     font-family: 'Courier New', Courier, monospace;
+    background-color: black;
 }
 
 .black {
@@ -13,9 +14,18 @@ body {
     border-style: solid;
 }
 
+#navContainer {
+    border-bottom: 2px solid white;
+    margin-bottom: 2.5vh;
+}
+
 #navRow {
     text-decoration:solid;
     font-size: large;
+}
+
+#navBar {
+
 }
 
 .nav-link {
@@ -29,6 +39,8 @@ body {
 
 #headerRow {
     margin-top: 2vh;
+    border-bottom: 2px solid white;
+    padding-bottom: 2.5vh;
 }
 
 #title {
