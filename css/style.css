@@ -12,6 +12,8 @@ body {
     border: 1px;
     border-color: white;
     border-style: solid;
+    padding: 5px;
+    align-self: center;
 }
 
 #navContainer {

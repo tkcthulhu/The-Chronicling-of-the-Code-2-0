@@ -27,7 +27,8 @@ const navName = createElement({
 const navP = createElement({
     eType: 'a',
     cName: 'nav-link',
-    text: 'The Chronicling of the Code',
+    text: '//HOME',
+    link: '/HTML/index.html',
     parent: navName
 })
 
@@ -41,7 +42,7 @@ const blog = createElement({
     eType: 'a',
     cName: 'nav-link',
     parent: blogLi,
-    link: null,
+    link: '/HTML/pages/blog.html',
     text: '//BLOG'
 })
 
