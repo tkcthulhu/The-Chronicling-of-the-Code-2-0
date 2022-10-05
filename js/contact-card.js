@@ -17,6 +17,7 @@ const contactCol = createElement({
 const contactCard = createElement({
     cName: 'card black',
     parent: contactCol,
+    eStyle: 'background-image: url(\'/img/marble.jpeg\')',
 })
 
 const contactImage = createElement({
@@ -24,11 +25,13 @@ const contactImage = createElement({
     cName: 'card-img-top',
     parent: contactCard,
     source: '/img/cigar.JPG',
+    eId: 'contactPic',
 })
 
 const contactBody = createElement({
     cName: 'card-body',
     parent: contactCard,
+    eId: 'cardBody',
 })
 
 const contactTitle = createElement({
