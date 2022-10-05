@@ -28,7 +28,7 @@ const navP = createElement({
     eType: 'a',
     cName: 'nav-link',
     text: '//HOME',
-    link: '/HTML/index.html',
+    link: '/index.html',
     parent: navName
 })
 
@@ -42,7 +42,7 @@ const blog = createElement({
     eType: 'a',
     cName: 'nav-link',
     parent: blogLi,
-    link: '/HTML/pages/blog.html',
+    link: '/pages/blog.html',
     text: '//BLOG'
 })
 
@@ -56,7 +56,7 @@ const aboutMe = createElement({
     eType: 'a',
     cName: 'nav-link',
     parent: aboutMeLi,
-    link: null,
+    link: '/pages/about-me.html',
     text: '//ABOUT ME'
 })
 
@@ -70,7 +70,7 @@ const myWork = createElement({
     eType: 'a',
     cName: 'nav-link',
     parent: myWorkLi,
-    link: null,
+    link: '/pages/my-work.html',
     text: '//MY WORK'
 })
 
@@ -84,6 +84,6 @@ const contactMe = createElement({
     eType: 'a',
     cName: 'nav-link',
     parent: contactMeLi,
-    link: '/HTML/pages/contact-card.html',
+    link: '/pages/contact-card.html',
     text: '//CONTACT ME'
 })

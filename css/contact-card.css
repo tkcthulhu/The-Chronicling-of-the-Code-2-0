@@ -18,3 +18,8 @@
     text-align: center;
     opacity: 75%;
 }
+
+.icon-row {
+    align-items: center;
+    align-content: center;
+}

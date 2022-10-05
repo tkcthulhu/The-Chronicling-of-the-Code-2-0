@@ -73,3 +73,16 @@ body {
 #fbIcon {
     aspect-ratio: 3.9 / 7.4 ;
 }
+
+.col-4 {
+    align-items: center;
+}
+
+#IR1 {
+    padding-bottom: 2.5vh;
+    border-bottom: 1vh black solid;
+}
+
+#IR2 {
+    padding-top: 2.5vh;
+}
