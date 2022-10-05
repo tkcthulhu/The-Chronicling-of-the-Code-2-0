@@ -5,12 +5,12 @@ const contactContainer = createElement({
 })
 
 const contactRow = createElement({
-    cName: 'row',
+    cName: 'row justify-content-center',
     parent: contactContainer,
 })
 
 const contactCol = createElement({
-    cName: 'col-4 justify-items-center',
+    cName: 'col col-lg-4',
     parent: contactRow,
 })
 
