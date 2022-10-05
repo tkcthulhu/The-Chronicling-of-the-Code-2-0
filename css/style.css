@@ -66,5 +66,10 @@ body {
     border-style: solid;
     border-color:white;
     aspect-ratio: 1/1;
-    width: 12vw
+    width: 12vw;
+    margin-left: 1.5vw;
+}
+
+#fbIcon {
+    aspect-ratio: 3.9 / 7.4 ;
 }
