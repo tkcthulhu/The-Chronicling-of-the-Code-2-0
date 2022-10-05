@@ -5,3 +5,16 @@
 #contactRow {
     align-content: center;
 }
+
+#contactPic {
+    border-radius: 50%;
+}
+
+#cardBody {
+    margin-top: 2.5vh;
+    border-radius: 7.5px;
+    background-color: white;
+    color:black;
+    text-align: center;
+    opacity: 75%;
+}

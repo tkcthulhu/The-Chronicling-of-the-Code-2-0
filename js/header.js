@@ -25,3 +25,11 @@ const title = createElement({
     parent: headerRow,
     text: '<h1 id="name"><strong>Tyler Consalvi</strong></h1><br><h3>Full Stack Web Development</h3>',
 })
+
+// const awesome = createElement({
+//     cName: 'col-2',
+//     parent: headerRow,
+//     eType: 'img',
+//     source: '/img/aincu-bootcamp-logo.png',
+//     eStyle: 'width: 8rem;'
+// })
