@@ -24,7 +24,7 @@ const contactImage = createElement({
     eType: 'img',
     cName: 'card-img-top',
     parent: contactCard,
-    source: '/img/cigar.JPG',
+    source: '/img/consalvi-tyler-small.jpg',
     eId: 'contactPic',
 })
 
